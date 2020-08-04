@@ -81,7 +81,7 @@ export class AplicacionComponent implements OnInit {
   }
 
   salirPasarela() {
-    console.log("salir");
+    window.close();
   }
 
   changeUrl() {
